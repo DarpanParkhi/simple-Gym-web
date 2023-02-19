@@ -6,20 +6,22 @@ learn git part-1
 
 1) 	git init	//it will initialize the folder means it will create a empty reopository name ".git" it is hidden file
 
-3)	git status	//it will show you which files are in the staging area and any if you have done then it will show you
+2)	git status	//it will show you which files are in the staging area and any if you have done then it will show you
 
-2)	git add -A or . or file name      //it will add/send your files in staging area.  -A or . for all files and file name is for that perticular files that you want add on staging area
+3)	git add -A or . or file name      //it will add/send your files in staging area.  -A or . for all files and file name is for that perticular files that you want add on staging area
 					
-3)	git status
+4)	git status	//if you have done any changes then it will show you. if added files in staging area using above command, then it will show you all the files that you added.
 
-4)	git commit -m "msg" 		 //it will take your files from staging area and will commit. whatever you will change on this file, please write down in message so it wiil help you to which changes have you done.
+5)	git commit -m "msg" 		 //it will take your files from staging area and will commit. whatever you will change on this file, please write down in message so it wiil help you to which changes has been you done. //whenever you changes any files then you have to commit that files.
 
-5) 	git log					//if you want to see how much files have commited, and also give date & time and author name and email id
+6) 	git log					//if you want to see how much files have commited, and also give date & time and author name and email id
 
-5)	git remote add origin repoName 	// origin means you can tell your local git repo,  which is its remote git repo? means where to push the code
+7) you have to make repository on github.
 
-6)	git push origin main	//if any changes done on origin(above files that you have remote) then it will push  on origin
+8)	git remote add origin repoName(url of repository that you created) 	// origin means you can tell your local git repo,  which is its remote git repo? means where to push the code //simply meaning: it will link your local git repo to github repo that you created.
 
-7)	git clone repoName
+9)	git push origin main	//if any changes done on origin(above files that you have remote) then it will push  on origin //it push your files to github repository that you made.
 
-8)	git pull origin main
+10)	git clone repoName	//if you want all files on new folder from your main repository that you created, then this command is use
+
+11)	git pull origin main
